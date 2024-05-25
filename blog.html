@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    
+    </section>
+
+    <!--blof page content-->
+
+    <section class="blog-content">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs For 2023</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt sit fugit recusandae minus impedit necessitatibus voluptate in eos, velit ad ratione ducimus quis error sed. Magnam in dignissimos aliquam Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum architecto, ipsam officiis a amet animi recusandae excepturi nihil nobis sit adipisci vitae quisquam commodi cum nostrum odio. Maiores, porro?!</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum odio, minus perspiciatis nobis autem voluptates? In quam quos voluptas nisi blanditiis tenetur eius suscipit id accusantium nulla soluta, ab sed? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero nam nulla corporis earum quis vero illum aperiam provident ducimus veniam facere, eos nobis architecto magni cumque consectetur aliquam at? Eligendi.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam nostrum cupiditate ducimus eveniet atque voluptatem consectetur accusamus quos similique obcaecati officia fugit numquam, dignissimos hic quis, amet accusantium, fugiat sint?</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur provident temporibus quam eum blanditiis consequuntur commodi nostrum quod officiis amet molestias culpa quaerat aspernatur eius accusantium animi, iusto reiciendis alias.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus officiis ipsum dolor veniam delectus voluptatibus, nemo dolore sapiente rem impedit, iusto vel quo neque illum at! Iste quisquam ea dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nesciunt voluptatibus aliquid accusamus eveniet quisquam quaerat molestias libero doloribus! Perspiciatis accusantium atque nihil quaerat consectetur explicabo nulla eum facere hic? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum fuga laboriosam in quo libero, quam ea minus alias quisquam voluptatem nesciunt quas officiis sequi voluptas dignissimos eaque incidunt ipsum pariatur.</p>
+        
+        
+            <div class="comment-box">
+
+                <h3>leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="enter name"/>
+                    <input type="email" aria-placeholder="enter email"/>
+
+                    <textarea rows="5" placeholder="your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    
+                    
+                    
+                    
+                    " placeholder="enter name">
+                </form>
+            </div>
+        
+        
+        
+        
+        
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analistic</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!--footer-->
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor 
+            sit amet, consectetur 
+            adipisicing elit. Unde rerum debitis accusamus, explicabo soluta saepe corrupti<br>dolore perspiciatis, iusto doloremque atque, libero nobis distinctio! 
+            Dolor quia quo architecto autem! Impedit.</p>
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            
+    </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+            console.log('sfd')
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+            console.log('sd')
+            
+        }
+    </script>
+</body>
+</html>
